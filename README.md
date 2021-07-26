@@ -19,7 +19,7 @@ You are expected to liquidate `0x` on Aave at block `1234`. Check out the [origi
 
 ### Grading
 
-Your grades are determined by the following metrics:
+Your grade is determined by the following metrics:
 
 - The gas consumed to deploy your smart contract
 - The gas consumed to execute your transaction

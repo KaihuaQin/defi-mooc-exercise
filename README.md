@@ -1,13 +1,13 @@
 # Hands-on Exercise: Flash Loan based Liquidation
 
 ## Exercise
-In this exerecise, you are expected to implement a smart contract to complete a flash loan based liquidation.
+In this exerecise, you are expected to implement a smart contract which performs a flash loan based liquidation.
 
 ### Requirements
 
-- The smart contract should allow your perform flash loan, liquidation, exchange in one blockchain transaction.
+- The smart contract should allow you to perform a flash loan, a liquidation, and an asset exchange in one blockchain transaction.
 
-- To ease marking, we require your contract to provide an unified interface `run`. You can encode the parameters you need into `params`. By calling `run`, the flash loan, liquidation, and exchange should be executed properly.
+- To ease marking, we require your contract to provide a unified interface `run`. You can encode the parameters needed into `params`. By calling `run`, the flash loan, liquidation, and exchange should be executed properly.
 
 ```javascript
 function run(bytes calldata params) external
